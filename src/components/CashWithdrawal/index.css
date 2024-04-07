@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #150b3e;
+  min-height: 500px;
+  min-width: 400px;
+  border-radius: 10px;
+  border: 0px solid;
+  padding: 30px;
+}
+.profile-and-name {
+  display: flex;
+}
+.name-first-letter {
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  color: #7c3aed;
+  border-radius: 25px;
+  border: 0px solid;
+  padding-top: 14px;
+  padding-left: 21px;
+  margin-right: 20px;
+}
+.name {
+  color: #c7d2fe;
+}
+.balance {
+  display: flex;
+  justify-content: space-between;
+  color: #382f5a;
+  align-items: center;
+}
+.ul-conatiner {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
